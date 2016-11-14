@@ -1,9 +1,5 @@
 <template>
   <div id="app" v-md-theme="'default'">
-  <modal :show.sync="show" :on-close="close">
-      
-  </modal>
-
     <div id="title-and-share">
       <h1 style="float:left;width:500px">
         Social Serverless Image Sharing
